@@ -29,7 +29,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6888478102")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kojar29650:h8jvNvpyteVB8AzM@cluster0.uywzxza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster")
 DB_NAME = os.environ.get("DATABASE_NAME", "Diablo")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "20"))  # 0 means no expiry
@@ -93,20 +93,20 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "DIABLO VOLFIR")
 UPI_ID = os.environ.get("UPI_ID", "rohit23pnb@axl")
-QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066-16cffa90cd682570da.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/DIABLOVOLFIR0")
+QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/a872a403f0f8d93416a3e-a15dd4d899ee669ef0.jpg")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/diablovolfir0")
 #--------------------------------------------
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "0 rs")
+PRICE1 = os.environ.get("PRICE1", "49 rs")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "60 rs")
+PRICE2 = os.environ.get("PRICE2", "99 rs")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "150 rs")
+PRICE3 = os.environ.get("PRICE3", "249 rs")
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "280 rs")
+PRICE4 = os.environ.get("PRICE4", "449 rs")
 #1 Year
-PRICE5 = os.environ.get("PRICE5", "550 rs")
+PRICE5 = os.environ.get("PRICE5", "899 rs")
 
 #===================(END)========================#
 
