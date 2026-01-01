@@ -42,7 +42,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e1873ade3dbc546
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "7a541402aeacbdbff361696add89bce2cf8afa4e")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/How_To_Download_OT")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/How_To_Download_OTx")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/4833dbed5bf27f709f486-1226172ea08c198735.jpg")
