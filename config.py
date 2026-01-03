@@ -18,26 +18,26 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8562456879:AAEY48nChwNY0e-kK58mGTiyTEw6stU1ctU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7975200182:AAFGqeY8n0Ji5uUsaB4ISB8u3z0Y5525RJ8")
 APP_ID = int(os.environ.get("APP_ID", "26944587" )) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "7261a455f2a6159b8a2fbfecd1a63004") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002913195239")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003015545798")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "ᴅɪᴀʙʟᴏ") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "6888478102")) # Owner id
+OWNER_ID = int(os.environ.get("OWNER_ID", "7252834931")) # Owner id
 #--------------------------------------------
-PORT = os.environ.get("PORT", "8001")
+PORT = os.environ.get("PORT", "8000")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kojar29650:h8jvNvpyteVB8AzM@cluster0.uywzxza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster")
-DB_NAME = os.environ.get("DATABASE_NAME", "Diablo")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kojar29650:h8jvNvpyteVB8AzM@cluster0.uywzxza.mongodb.net/?retryWrites=true&w=majority&appName=yorha")
+DB_NAME = os.environ.get("DATABASE_NAME", "yorha")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "20"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "7a541402aeacbdbff361696add89bce2cf8afa4e")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/b051e81928d95746f3900-b25d8cfe86e0f989cb.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e1873ade3dbc5461fe968-049e266e3927e0d3ef.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/a50289c5498b92716ad1c-bc8e98ac70fd9539a6.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/eb60dc67795c52efd5f1b-4600a893c5dc69792e.jpg")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
@@ -98,15 +98,15 @@ SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/diablovolfir0")
 #--------------------------------------------
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "49 rs")
+PRICE1 = os.environ.get("PRICE1", "79 rs")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "99 rs")
+PRICE2 = os.environ.get("PRICE2", "249 rs")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "249 rs")
+PRICE3 = os.environ.get("PRICE3", "349 rs")
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "449 rs")
+PRICE4 = os.environ.get("PRICE4", "549 rs")
 #1 Year
-PRICE5 = os.environ.get("PRICE5", "899 rs")
+PRICE5 = os.environ.get("PRICE5", "999 rs")
 
 #===================(END)========================#
 
